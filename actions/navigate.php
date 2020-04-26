@@ -1,8 +1,17 @@
 <?php
 require 'guard.php';
 
+require __DIR__ . '/../db/db.php';
+
+$db = loadDB();
+
 function skip_question() {
+    global $db;
+    
     $_SESSION['question_index']++;
+
+    if ($_SESSION['question_index'] >= count($db)) 
+        $_SESSION['question_index'] = count($db) - 1;
 }
 
 function previous_question() {
