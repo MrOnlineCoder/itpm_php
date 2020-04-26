@@ -23,3 +23,13 @@ Choose a correct OSI application network protocol, used by browsers and webserve
 -FTP
 +HTTP
 -SOAP
+Which of the following is NOT a webserver?
+-nginx
+-Apache
++php
+-IIS
+What SQL operator is used for reading rows from some table?
++SELECT columns FROM table
+-READ columns
+-UPDATE columns IN table
+-QUERY database,table,columns
