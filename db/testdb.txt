@@ -1,0 +1,25 @@
+What is the size of 1 byte?
++8 bits
+-2 bits
+-256 bits
+-32 bits
+What is this: 172.38.46.202?
+-MAC address
++IPv4 address
+-IPv6 address
+-domain
+What typing paradigm is used in Python?
+-static typing
+-universal typing
++duck typing
+-strong dynamic typing
+What of the following is NOT a hash function?
++Base64
+-SHA-1
+-MD5
+-SHA-256
+Choose a correct OSI application network protocol, used by browsers and webservers.
+-TCP
+-FTP
++HTTP
+-SOAP
